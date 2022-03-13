@@ -73,7 +73,7 @@ def predict(image_path, model, top_k):
 top_k_probs, top_k_classes = predict(image_path, loaded_keras_model, top_k) 
 
 
-for i in top_k_classes:
-    print('Flower Name:', class_names.get(str(top_k_classes[i])))
+for i in range(len(top_k_classes)):
+    print('Flower Name:', class_names.get(str(top_k_classes[i]+1)))
     print('Class Probabilties:', top_k_probs[i])
 
