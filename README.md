@@ -14,15 +14,15 @@ There are two parts of this project:
 
 ## Files
 
-- ` Project_Image_Classifier_Project.ipynb ` : Main jupyter notebook demonstrates all the steps to create and train a TensorFlow Keras model with MobileNet to predict the type of a flower from its image. 
+- ` Project_Image_Classifier_Project.ipynb `: Main jupyter notebook demonstrates all the steps to create and train a TensorFlow Keras model with MobileNet to predict the type of a flower from its image. 
 
-- ` Project_Image_Classifier_Project.html ` : HTML version of the jupyter notebook. 
+- ` Project_Image_Classifier_Project.html `: HTML version of the jupyter notebook. 
 
-- ` predict.py ` : Python command line application that uses the trained deep learning network from the jupyter notebook and classifies an input flower image.
+- ` predict.py `: Python command line application that uses the trained deep learning network from the jupyter notebook and classifies an input flower image.
 
-- ` saved_keras_model.h5 ` : The trained and saved deep learning model that predicts the type of a flower.
+- ` saved_keras_model.h5 `: The trained and saved deep learning model that predicts the type of a flower.
 
-- ` label_map.json ` : Mapping labels to the actual flower names.
+- ` label_map.json `: Mapping labels to the actual flower names.
 
 
 ## Technologe library
@@ -84,7 +84,7 @@ you have to pass as an arguments 1- the path to an image and 2- the path to the 
 
 - Options usage:
 
-` --top_k ` : This argument returns the top K most likely classes, and ~~ --category_names ~~ : The path to a JSON file mapping labels to flower names
+` --top_k `: This argument returns the top K most likely classes, and ` --category_names `: The path to a JSON file mapping labels to flower names
 
 ``` python predict.py "./test_images/orange_dahlia.jpg" "./saved_keras_model.h5" --top_k 3 --category_names "./label_map.json" ``` 
 
