@@ -42,7 +42,7 @@ There are two parts of this project:
 
 This project uses Oxford Flowers 102 dataset and it was divided into a training set, a validation set, and a test set.
 
-The Oxford Flowers dataset is so large I cannot upload it onto this repository but you can find the data (here)[https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html], thus, in order to run this project, you will need to use a GPU device. 
+The Oxford Flowers dataset is so large I cannot upload it onto this repository but you can find the data [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html), thus, in order to run this project, you will need to use a GPU device. 
 
 
 ## Useg
